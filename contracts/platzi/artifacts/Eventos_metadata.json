@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum Eventos.State",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "setChangeState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum Eventos.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/platzi/enumExa.sol": "Eventos"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/platzi/enumExa.sol": {
+			"keccak256": "0x7b0c8ade43bd539efb3f76a80884c69f97fb277d84a435ecddabbf8fbd22e6e8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://61e55542cdbfde402ac73fd6e7b38511a1727f5b9788f1d19d0380085092fee0",
+				"dweb:/ipfs/QmeRVDeCGxwJMbhiTXrSpsd8cCxnZsThkgvKRBEjSXHfQc"
+			]
+		}
+	},
+	"version": 1
+}

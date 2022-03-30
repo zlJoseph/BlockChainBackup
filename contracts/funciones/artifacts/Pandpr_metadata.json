@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"name": "sumar",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funciones/pandpr.sol": "Pandpr"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funciones/pandpr.sol": {
+			"keccak256": "0x7f39f3ffb28798debd4affcf58a3448f2fbb5dd27472939c69a6d8b31afc627b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e4832d72e79b87b798f11798f47e8dd31ea7f379082a180554112c91ea088f48",
+				"dweb:/ipfs/QmZXBeVutDg3kPF8nUTAqDWpdLde65oC351voNek9nDVnk"
+			]
+		}
+	},
+	"version": 1
+}

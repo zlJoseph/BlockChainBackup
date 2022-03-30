@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "va",
+						"type": "string"
+					}
+				],
+				"name": "setRead",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funciones/read.sol": "Read"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funciones/read.sol": {
+			"keccak256": "0xd4f423804548db652289854eb4d498ee639d4f6386c2be5ce1efbbfcf6dc6517",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://370b403854113159a4c9db5bb584849d65c2ba706cd709958faba29a99b2f027",
+				"dweb:/ipfs/QmUvuJB7nhuthcMCx8RbTFHjreBFHWSAJvTBw3Tu3UCra3"
+			]
+		}
+	},
+	"version": 1
+}

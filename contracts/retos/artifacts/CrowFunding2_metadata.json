@@ -1,0 +1,184 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					}
+				],
+				"name": "ProjectClosed",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "editor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum CrowFunding2.StateProject",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "changeState",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "proyectos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "enum CrowFunding2.StateProject",
+						"name": "state",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "funds",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fundsLimit",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "indexProject",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum CrowFunding2.StateProject",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "setChangeState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "indexProject",
+						"type": "uint256"
+					}
+				],
+				"name": "setFundsProject",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_limit",
+						"type": "uint256"
+					}
+				],
+				"name": "setProject",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/retos/CrowFunding3.sol": "CrowFunding2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/retos/CrowFunding3.sol": {
+			"keccak256": "0x487a9f292ea91932ca1d20e647d1c2c738f57739bda31db4647ba8b6502bac2e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://905e97bca17dff55294e2b9c2c2d8a495ff19ef85abd49940c1477cf9a1d2901",
+				"dweb:/ipfs/QmSaut73cPunmXFNRHFZUwNDjCqQs7vpAH13aQvvXtvHbL"
+			]
+		}
+	},
+	"version": 1
+}

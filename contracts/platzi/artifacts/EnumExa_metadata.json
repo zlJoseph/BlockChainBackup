@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum EnumExa.State",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "setChangeState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum EnumExa.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/platzi/enumExa.sol": "EnumExa"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/platzi/enumExa.sol": {
+			"keccak256": "0x8c005597563ae73b731fe86a5d6bc06f418aacfe68c3c288b61618a940d49401",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d877d149527544b4726a93000e10975a9aa4956e51500f237b0267c04b243edf",
+				"dweb:/ipfs/QmRA5R7Lf8oG6sSXN7G97fCNyphdNEwZnyAUcuvs4CXoRt"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "reciever",
+						"type": "address"
+					}
+				],
+				"name": "setFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funciones/funds.sol": "Funds"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funciones/funds.sol": {
+			"keccak256": "0x4563725ae21e4607a83ff258c6683789e06bd0d291b932b0b374affbc5689371",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://14a5463f9b571cb53f9866af4cb88b462e2557e189c9da56f6539b622741f312",
+				"dweb:/ipfs/QmduuxcH1hGhnX9tgwK1Ysn5DLVKQXzd5tPQenazSUqUZf"
+			]
+		}
+	},
+	"version": 1
+}
